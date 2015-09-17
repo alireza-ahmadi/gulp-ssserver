@@ -1,0 +1,23 @@
+{
+  "name": "gulp-ssserver",
+  "version": "0.1.0",
+  "description": "Super simple static web server for Gulp workflow, Livereload enabled",
+  "main": "lib/ssserver.js",
+  "keywords": [
+    "livereload",
+    "gulp",
+    "ssserver",
+    "server"
+  ],
+  "author": "Alireza Ahmadi (a.ahmadi94@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.4.2",
+    "express": "^4.13.3",
+    "livereload": "^0.3.7",
+    "through": "^2.3.8"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23"
+  }
+}

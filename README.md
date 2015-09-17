@@ -15,7 +15,7 @@ gulp.task('server', function() {
    gulp.src('./path/to/serve/and/watch')
       .pipe(ssserver());
    // Server will start listening on 127.0.0.1:9000
-   // You can set hostname and port by replacing last line with the follow line
+   // You can set hostname and port by replacing last line with the following line
    // .pipe(ssserver(18200, '0.0.0.0'));
 });
 ```
